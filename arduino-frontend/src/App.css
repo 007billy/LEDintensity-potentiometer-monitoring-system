@@ -1,0 +1,63 @@
+/* Postavi globalni stil za cijelu aplikaciju */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('../public/photo-1603732551658-5fabbafa84eb.jpg'); /* putanja do slike */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff; /* bijeli tekst za bolju čitljivost */
+}
+
+/* Stiliziraj glavni naslov */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+/* Stiliziraj divove unutar aplikacije */
+.buttons {
+  background-color: rgba(0, 0, 0, 0.607); /* poluprozirna crna pozadina */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+ 
+}
+
+/* Stiliziraj gumbove */
+button {
+  background-color: #007BFF; /* plava boja */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* tamnija plava kada se prelazi mišem */
+}
+
+/* Stiliziraj input polje */
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Stiliziraj tekst unutar p elemenata */
+p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
